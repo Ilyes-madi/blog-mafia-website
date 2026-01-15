@@ -1,0 +1,88 @@
+    
+    .title1-darkblue {
+        color:#00177D;
+        font-size: 36px;
+        font-weight: bolder;
+        -webkit-text-stroke: 2px black;
+        text-shadow: 2px 2px 6px black;
+    }
+    .title1-darkblue {
+        background-image:linear-gradient(45deg, #A3E4FF,#00177D);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: glowing 2s ease-in-out infinite;
+    }
+    @keyframes glowing {
+        0% {background-position: 0 0;}
+        50%  {background-position: 400% 0;}
+        100% {background-position: 0 0;}
+    }
+     .text-black {
+        color: #000;
+        font-size: 15px;
+    }
+    .title2-blue {
+        color:darkblue;
+        font-size: 20px;
+    }
+     .lien-charlie {
+        color:darkblue;
+        font-size: 15px;
+     }
+    .gras {
+        color:darkblue;
+        font-weight: bolder;
+      }
+    a  {
+        color:darkred;
+        font-size: 20px;
+        font-weight: bolder;
+    }
+    a:hover {
+        color:darkmagenta;
+    }
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+       background-color:darkgray;
+       font-weight: bold;
+    }
+    #al_capone {
+        float: right;
+        margin-top: -37px;
+        
+        margin-right: 30px;
+     }
+     img {
+        box-shadow: 5px 5px 15px rgba(0, 0, 0 , 0.5);
+        border: solid black;
+     }
+     #logo-cosanostra {
+         margin-bottom: -100px;
+         animation: rotate 2s linear ;
+         border: solid white;
+        }
+     @keyframes rotate{
+        0%{transform: rotate(0deg);}
+        100%{transform: rotate(360deg);}
+     }
+     @media screen and (max-width: 480px){
+         header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            margin: 0;
+         }
+         div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            margin: 0;
+         }
+     }
+    
+
